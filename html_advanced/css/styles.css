@@ -96,3 +96,14 @@ border: 1px purple;
 {
     justify-content: center;
 }
+.block h1
+{
+    justify-content: space-between;
+    padding: 0;
+    border: 1px;color: black;
+    margin :30px
+}
+.block p
+{
+    width: inherit;
+}
