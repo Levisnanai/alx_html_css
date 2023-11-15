@@ -107,3 +107,12 @@ border: 1px purple;
 {
     width: inherit;
 }
+.video-block {
+    border: 1px solid #000; /* Border for visualization */
+    padding: 20px; /* Padding for spacing inside the block */
+    margin: 10px; /* Margin to create space between blocks */
+    width: 200px; /* Set a fixed width for each block */
+    display: inline-block; /* Display blocks side by side */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
