@@ -129,3 +129,31 @@ border: 1px purple;
         padding: 10px;
         text-align: center;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.global-block {
+    text-align: center;
+}
+
+.row-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.button-block, .text-block, .image-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-block img {
+    max-width: 100%;
+    height: auto;
+}
+</style>
+</head>
+<body>
