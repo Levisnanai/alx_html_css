@@ -116,3 +116,16 @@ border: 1px purple;
     box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
+{
+     /* Add any additional CSS styles here */
+     .row-block {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .button-block, .text-block {
+        border: 1px solid #080606;
+        padding: 10px;
+        text-align: center;
+}
