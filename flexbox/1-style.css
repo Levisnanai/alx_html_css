@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+  }
+  
+  .row::after {
+    content: none;
+  }
+  
+
+  [class*='col-'] {
+    float: none;
+  }
