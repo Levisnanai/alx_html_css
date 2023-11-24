@@ -1,0 +1,118 @@
+:root{
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --orange-color: #FF6565;
+
+
+}
+
+
+.hero {
+        padding: 100px 20px;
+        colour:white;
+}
+
+
+/* Reset CSS Styling */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Use Variables */
+:root {
+    --primary-color: #aa3753;
+    --background-color: #131414;
+    --text-color: #ddddd8;
+}
+
+/* Simple and Generic CSS Selectors */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: white;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: rgba(245, 238, 238, 0.932);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+body
+{
+    background-image: url(background.png);
+}
