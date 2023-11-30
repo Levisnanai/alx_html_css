@@ -6,7 +6,6 @@
 
 }
 
-
 .hero {
         padding: 100px 20px;
         colour:white;
@@ -82,15 +81,6 @@ nav a {
     margin-bottom: 30px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: var(--primary-color);
-    color: rgba(245, 238, 238, 0.932);
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-}
 
 /* Media Query for Responsive Design */
 @media screen and (max-width: 768px) {
@@ -121,4 +111,12 @@ div p {
     text-color :white;
     text-align: inherit;
     padding: 10%;
+}
+.button{
+    margin:0;
+    padding: 10px;
+    color:white;
+    background-color: #FF6565;
+    border-radius: 2rem;
+
 }
